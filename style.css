@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: #f1f8fc;
+    color: #263746;
+    min-height: 100vh;
+}
+
+.main-title {
+    color: #2585b5;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #8297a5;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.main-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #e2eef5;
+    box-shadow: 0 5px 20px rgba(43, 112, 148, 0.06);
+}
+
+.section-title {
+    font-size: 21px;
+    font-weight: 700;
+    color: #287fa8;
+    margin-bottom: 25px;
+    padding-right: 12px;
+    border-right: 4px solid #55b9df;
+}
+
+.section-description {
+    color: #8297a5;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    color: #405563;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-control {
+    border: 1px solid #dce9f0;
+    border-radius: 9px;
+    padding: 12px 14px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    background-color: #fbfdff;
+    transition: 0.3s;
+}
+
+.form-control:focus {
+    border-color: #55b9df;
+    box-shadow: 0 0 0 3px rgba(85, 185, 223, 0.15);
+    background-color: #ffffff;
+}
+
+.btn-add {
+    background: #3199c7;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    padding: 12px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.btn-add:hover {
+    background: #247da8;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.btn-mercy {
+    background: #e5f5fc;
+    color: #247fa8;
+    border: 1px solid #b9e4f4;
+    border-radius: 9px;
+    padding: 12px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.btn-mercy:hover {
+    background: #ccecf9;
+    color: #17678d;
+}
+
+.empty-message {
+    background: #f6fafc;
+    border: 1px dashed #cbdfe9;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #8a9da9;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.student-item {
+    background: #f5fbfe;
+    border: 1px solid #dfedf4;
+    border-right: 4px solid #55b9df;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 12px;
+    color: #405563;
+    font-weight: 600;
+}
+
+#errorMessage {
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mercy-result {
+    background: #f5fbfe;
+    border: 1px solid #dcecf4;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.mercy-result h3 {
+    color: #2585b5;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.mercy-result p {
+    margin-bottom: 10px;
+    color: #526977;
+}
+
+.mercy-student {
+    background: #ffffff;
+    border: 1px solid #e0edf3;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 10px;
+    color: #405563;
+}
+
+.mercy-average {
+    background: #e2f5fc;
+    color: #247fa8;
+    padding: 14px;
+    border-radius: 9px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+@media (max-width: 576px) {
+    .main-title {
+        font-size: 25px;
+    }
+
+    .main-card {
+        padding: 20px 15px;
+    }
+
+    .section-title {
+        font-size: 18px;
+    }
+
+    .form-control {
+        font-size: 13px;
+    }
+}
